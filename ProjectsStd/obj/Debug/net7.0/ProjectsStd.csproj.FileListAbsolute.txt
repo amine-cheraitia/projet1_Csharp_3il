@@ -1,0 +1,14 @@
+C:\Users\amine\Desktop\C#_cours\CsharpProjectsStd\ProjectsStd\bin\Debug\net7.0\ProjectsStd.exe
+C:\Users\amine\Desktop\C#_cours\CsharpProjectsStd\ProjectsStd\bin\Debug\net7.0\ProjectsStd.deps.json
+C:\Users\amine\Desktop\C#_cours\CsharpProjectsStd\ProjectsStd\bin\Debug\net7.0\ProjectsStd.runtimeconfig.json
+C:\Users\amine\Desktop\C#_cours\CsharpProjectsStd\ProjectsStd\bin\Debug\net7.0\ProjectsStd.dll
+C:\Users\amine\Desktop\C#_cours\CsharpProjectsStd\ProjectsStd\bin\Debug\net7.0\ProjectsStd.pdb
+C:\Users\amine\Desktop\C#_cours\CsharpProjectsStd\ProjectsStd\obj\Debug\net7.0\ProjectsStd.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amine\Desktop\C#_cours\CsharpProjectsStd\ProjectsStd\obj\Debug\net7.0\ProjectsStd.AssemblyInfoInputs.cache
+C:\Users\amine\Desktop\C#_cours\CsharpProjectsStd\ProjectsStd\obj\Debug\net7.0\ProjectsStd.AssemblyInfo.cs
+C:\Users\amine\Desktop\C#_cours\CsharpProjectsStd\ProjectsStd\obj\Debug\net7.0\ProjectsStd.csproj.CoreCompileInputs.cache
+C:\Users\amine\Desktop\C#_cours\CsharpProjectsStd\ProjectsStd\obj\Debug\net7.0\ProjectsStd.dll
+C:\Users\amine\Desktop\C#_cours\CsharpProjectsStd\ProjectsStd\obj\Debug\net7.0\refint\ProjectsStd.dll
+C:\Users\amine\Desktop\C#_cours\CsharpProjectsStd\ProjectsStd\obj\Debug\net7.0\ProjectsStd.pdb
+C:\Users\amine\Desktop\C#_cours\CsharpProjectsStd\ProjectsStd\obj\Debug\net7.0\ProjectsStd.genruntimeconfig.cache
+C:\Users\amine\Desktop\C#_cours\CsharpProjectsStd\ProjectsStd\obj\Debug\net7.0\ref\ProjectsStd.dll
