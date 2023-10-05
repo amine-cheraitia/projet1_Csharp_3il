@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\amine\\Desktop\\C#_cours\\CsharpProjectsStd\\ProjectsStd\\ProjectsStd.csproj": {}
+    "C:\\Users\\amine\\Desktop\\C#_cours\\CsharpProjectsStd\\ProjectsStd\\ProjectsStd.csproj": {}
   },
   "projects": {
-    "c:\\Users\\amine\\Desktop\\C#_cours\\CsharpProjectsStd\\ProjectsStd\\ProjectsStd.csproj": {
+    "C:\\Users\\amine\\Desktop\\C#_cours\\CsharpProjectsStd\\ProjectsStd\\ProjectsStd.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\amine\\Desktop\\C#_cours\\CsharpProjectsStd\\ProjectsStd\\ProjectsStd.csproj",
+        "projectUniqueName": "C:\\Users\\amine\\Desktop\\C#_cours\\CsharpProjectsStd\\ProjectsStd\\ProjectsStd.csproj",
         "projectName": "ProjectsStd",
-        "projectPath": "c:\\Users\\amine\\Desktop\\C#_cours\\CsharpProjectsStd\\ProjectsStd\\ProjectsStd.csproj",
+        "projectPath": "C:\\Users\\amine\\Desktop\\C#_cours\\CsharpProjectsStd\\ProjectsStd\\ProjectsStd.csproj",
         "packagesPath": "C:\\Users\\amine\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\amine\\Desktop\\C#_cours\\CsharpProjectsStd\\ProjectsStd\\obj\\",
+        "outputPath": "C:\\Users\\amine\\Desktop\\C#_cours\\CsharpProjectsStd\\ProjectsStd\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\amine\\AppData\\Roaming\\NuGet\\NuGet.Config",

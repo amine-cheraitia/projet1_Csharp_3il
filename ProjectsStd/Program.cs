@@ -1,55 +1,55 @@
 ﻿
-using System.Collections.Generic;
+// Liste des étudiants
+List<string> listeEtudiants = new List<string>() { "Brice", "Amine", "Oussama", "Khalil", "Emna", "Mouadhafer", "Claudia" };
 
-//Liste Std
-List<string> etudiants = new List<string>() { "Brice", "Amine", "Oussama", "khalil", "Emna", "Mouadhafer", "Claudia" };
-// Liste absents
-List<string> etudiantsAbsent = new List<string>();
-// bouclé sur les étudiants
+// Liste des étudiants absents
+List<string> listeEtudiantsAbsents = new List<string>();
 
-Console.WriteLine(@"  __  __  _____ ___  _____                __                          
- |  \/  |/ ____|__ \|  __ \              /_/                          
- | \  / | (___    ) | |  | |  _ __  _ __ ___  ___  ___ _ __   ___ ___ 
- | |\/| |\___ \  / /| |  | | | '_ \| '__/ _ \/ __|/ _ \ '_ \ / __/ _ \
- | |  | |____) |/ /_| |__| | | |_) | | |  __/\__ \  __/ | | | (_|  __/
- |_|  |_|_____/|____|_____/  | .__/|_|  \___||___/\___|_| |_|\___\___|
-                             | |                                      
-                             |_|                                      
-
+Console.WriteLine(@"
+  _____       __                           _____ _               _      __  __  _____ ___  _____  
+ |  __ \     /_/                          / ____| |             | |    |  \/  |/ ____|__ \|  __ \ 
+ | |__) | __ ___  ___  ___ _ __   ___ ___| |    | |__   ___  ___| | __ | \  / | (___    ) | |  | |
+ |  ___/ '__/ _ \/ __|/ _ \ '_ \ / __/ _ \ |    | '_ \ / _ \/ __| |/ / | |\/| |\___ \  / /| |  | |
+ | |   | | |  __/\__ \  __/ | | | (_|  __/ |____| | | |  __/ (__|   <  | |  | |____) |/ /_| |__| |
+ |_|   |_|  \___||___/\___|_| |_|\___\___|\_____|_| |_|\___|\___|_|\_\ |_|  |_|_____/|____|_____/ 
+                                                                                                  
 ");
-foreach (var i in etudiants)
-{
-    Console.WriteLine($"Est ce que {i} est présent(e) ? O/N");
-    var rep = Console.ReadLine();
-    //if std present == no => add to etudiantsAbsent
 
-    // vérification de la saisie while si ni o ni n on repose la questions
-    while (rep != "N" ^ rep != "n" ^ rep != "O" ^ rep != "o")
+
+// Vérification de la présence des étudiants
+foreach (var etudiant in listeEtudiants)
+{
+    Console.WriteLine($"Est-ce que {etudiant} est présent(e) ? O/N");
+    var reponse = Console.ReadLine().ToLower();
+    // en cas d'erreur de saisie on demande a l'utilisateur de choisir O ou N
+    while (reponse != "n" && reponse != "o")
     {
-        Console.WriteLine($"Est ce que {i} est présent(e) ? O/N");
-        Console.WriteLine("Veuillez choisir O / N pour réponse");
-        rep = Console.ReadLine();
+        Console.WriteLine("La réponse est incorrecte, veuillez choisir O ou N comme réponse.");
+        Console.WriteLine($"Est-ce que {etudiant} est présent(e) ? O/N");
+        reponse = Console.ReadLine().ToLower();
     }
-    if (rep == "N" ^ rep == "n")
+    // si l'utilisateur saisie n on rajoute l'étudiant concerné a listeEtudiantsAbsents
+    if (reponse == "n")
     {
-        etudiantsAbsent.Add(i);
-    };
+        listeEtudiantsAbsents.Add(etudiant);
+    }
 }
 
-//afficher le résultat
-Console.WriteLine(@"                                                                                                                                                                                     
-                                                                                                                                                                                     
-                                                                                                                                                                                     
-                                                                                                                                                                                     
- _______  _______  _______  _______  _______  _______  _______  _______  _______  _______  _______  _______  _______  _______  
-/______/\/______/\/______/\/______/\/______/\/______/\/______/\/______/\/______/\/______/\/______/\/______/\/______/\/______/\
-\__::::\/\__::::\/\__::::\/\__::::\/\__::::\/\__::::\/\__::::\/\__::::\/\__::::\/\__::::\/\__::::\/\__::::\/\__::::\/\__::::\/ 
-                                                                                                                                                                                     
-
+Console.WriteLine(@"                                                                                                                                                                                                                                                                              
+ _______  _______  _______  _______  
+/\______\/\______\/\______\/\______\
+\/______/\/______/\/______/\/______/                                                                                                                                                  
 ");
-//si il y'a 0 absents je change de message 
+// Affichage des étudiants absents
 Console.WriteLine("Les étudiants absents sont :\n");
-foreach (var x in etudiantsAbsent)
+
+foreach (var etudiantAbsent in listeEtudiantsAbsents)
 {
-    Console.WriteLine($"- {x}");
+    Console.WriteLine($"\t- {etudiantAbsent}");
 }
+
+Console.WriteLine(@"                                                                                                                                                                                                                                                                              
+ _______  _______  _______  _______  
+/\______\/\______\/\______\/\______\
+\/______/\/______/\/______/\/______/                                                                                                                                                      
+");
